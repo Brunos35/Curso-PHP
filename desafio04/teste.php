@@ -5,7 +5,9 @@
 
     $url = 'https://olinda.bcb.gov.br/olinda/servico/PTAX/versao/v1/odata/CotacaoDolarPeriodo(dataInicial=@dataInicial,dataFinalCotacao=@dataFinalCotacao)?@dataInicial=\''.$inicio.'\'&@dataFinalCotacao=\''.$fim.'\'&$top=1&$orderby=dataHoraCotacao%20desc&$format=json&$select=cotacaoCompra,dataHoraCotacao';
 
-    $cot = json_decode(file_get_contents($url), true);
-    var_dump($cot);
+    $dados = json_decode(file_get_contents($url), true);
+    
+    $cot = $dados["value"]["0"]["cotacaoCompra"];
+    echo "$cot"
 ?>
 </pre>  

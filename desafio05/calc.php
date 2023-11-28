@@ -13,10 +13,11 @@
     <section>
     <?php
         $num = $_POST["num"] ?? 0;
-        $dol = 4.90;
-        $valor = ($num / $dol);
+        $int = (int) $num ;
+        $frac = $num - $int; 
 
-        echo "Essa quantia R\$". number_format($num,2) . " equivale à US\$". number_format($valor,2);
+        echo " <ul><li>A parte inteira é <strong>$int</strong></li>";
+        echo "<li>A parte fracionaria é <strong>$frac</strong></li></ul>";
     ?>
     </section>
 </body>

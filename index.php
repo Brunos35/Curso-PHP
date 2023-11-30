@@ -20,6 +20,7 @@
         <p><a href="desafio04/index.html">Conversor de moeda 2</a></p>
         <p><a href="desafio05/index.html">Comparador de números reais</a></p>
         <p><a href="desafio06/index.php">Divisão</a></p>
+        <p><a href="desafio07/index.php">Salário minimo</a></p>
     </section>
 </body>
 

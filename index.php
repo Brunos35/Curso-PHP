@@ -23,6 +23,7 @@
         <p><a href="desafio07/index.php">Salário minimo</a></p>
         <p><a href="desafio08/index.php">Raízes</a></p>
         <p><a href="desafio09/index.php">Médias</a></p>
+        <p><a href="desafio10/index.php">Calculando Idade</a></p>
     </section>
 </body>
 

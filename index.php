@@ -21,6 +21,8 @@
         <p><a href="desafio05/index.html">Comparador de números reais</a></p>
         <p><a href="desafio06/index.php">Divisão</a></p>
         <p><a href="desafio07/index.php">Salário minimo</a></p>
+        <p><a href="desafio08/index.php">Raízes</a></p>
+        <p><a href="desafio09/index.php">Médias</a></p>
     </section>
 </body>
 

@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+/* Pagina principal/ Config geral*/
 *{
     padding: 0px;
     margin: 0px;
@@ -72,6 +73,7 @@ div#princip{
     padding-bottom: 15px;
     text-align: justify;
 }
+
 div#princip > h1, div#princip >p{
     padding: 10px;
 }
@@ -90,6 +92,7 @@ p > a {
     font-size: 20px;
 }
 
+/*Cardápio*/
 section#cardapio{
     background-color: rgba(255, 255, 255, 0.089);
     width: 700px;
@@ -108,7 +111,7 @@ div#hamburguer> p{
     padding: 0px;
     margin-left: 10px;
     color: #5f2c82;
-    font-size: 20px;
+    font-size: 15px;
     font-weight: bold;
 }
 div#hamburguer > img{
@@ -123,6 +126,25 @@ div.primeiro{
     margin-right: 150px;
 }
 
+/*Tela de pedido*/
+
+
+label{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+div#pedido{
+    padding:10px;
+}
+
+input#pedido{
+font-size: 15px;
+font-weight: bold;
+}
+
+/*Tela de Login*/
 section#login{
     position: absolute;
     top: 50%;

@@ -25,6 +25,8 @@
         <p><a href="desafio09/index.php">Médias</a></p>
         <p><a href="desafio10/index.php">Calculando Idade</a></p>
         <p><a href="desafio11/index.php">Reajuste de preços</a></p>
+        <p><a href="desafio12/index.php">Calculadora de tempo</a></p>
+        <p><a href="desafio13/index.php">Caixa eletrônico</a></p>
         <p><a href="Prova LVI/index.html">Prova de Linguagem visual</a></p>
     </section>
 </body>

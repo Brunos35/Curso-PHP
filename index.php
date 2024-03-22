@@ -30,6 +30,7 @@
         <p><a href="Prova LVI/index.html">Prova de Linguagem visual</a></p>
         <p><a href="adocao-master/index.php">Site de adoção</a></p>
         <a href="./testechat/login.php">Chat</a>
+        <a href="./testechat2/login.html">Chat 2</a>
     </section>
 </body>
 

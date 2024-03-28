@@ -29,8 +29,10 @@
         <p><a href="desafio13/index.php">Caixa eletrônico</a></p>
         <p><a href="Prova LVI/index.html">Prova de Linguagem visual</a></p>
         <p><a href="adocao-master/index.php">Site de adoção</a></p>
-        <a href="./testechat/login.php">Chat</a>
+        <a href="./testechat/login.html">Chat</a>
         <a href="./testechat2/login.html">Chat 2</a>
+        <a href="./teste3/login.html">Chat 3</a>
+
     </section>
 </body>
 

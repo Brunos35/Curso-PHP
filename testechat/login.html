@@ -9,22 +9,16 @@
 <body>
 <div class="login-container">
     <h2>Login</h2>
-    <?php
-    // Verifica se há uma mensagem de erro na URL
-    if (isset($_GET['error'])) {
-        echo '<p class="error-message">Usuário ou senha incorretos. Por favor, tente novamente.</p>';
-    }
-    ?>
     <form action="authenticate.php" method="POST">
         <div class="form-group">
-            <label for="username">Nome de Usuário:</label>
+            <label for="username">Username:</label>
             <input type="text" id="username" name="username" required>
         </div>
         <div class="form-group">
-            <label for="password">Senha:</label>
+            <label for="password">Password:</label>
             <input type="password" id="password" name="password" required>
         </div>
-        <button type="submit">Entrar</button>
+        <button type="submit">Login</button>
     </form>
 </div>
 </body>
